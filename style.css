@@ -1,0 +1,68 @@
+/* General Styling */
+body {
+    background-color: black;
+    color: white;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+h2 {
+    margin: 20px 0;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* Table Styling */
+.table-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+table {
+    width: 80%;
+    max-width: 600px;
+    border-collapse: collapse;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+/* Table Headers */
+th {
+    background-color: cornflowerblue;
+    padding: 12px;
+    font-size: 20px;
+}
+
+/* Table Data */
+td {
+    border: 1px solid white;
+    padding: 10px;
+    font-size: 18px;
+    text-align: left;
+}
+
+/* Alternate Row Coloring */
+tr:nth-child(even) {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+/* Hover Effect */
+tr:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+    transition: 0.3s;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 600px) {
+    table {
+        width: 95%;
+    }
+    td {
+        font-size: 16px;
+    }
+}
